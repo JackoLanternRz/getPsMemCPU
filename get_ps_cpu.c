@@ -77,7 +77,7 @@ int main(int argc, char *argv[])
 			usage = getCpuUsage(500000, pid);
 			mem = getMemValue(pid);
 			fprintf(fp,"%lld,%d,%0.2f\n", Tms, mem, usage);
-			printf("pid %d  memory usage: %d KB, CPU utilization: %0.2f\n", pid, mem, usage);
+			printf("T:%lld\t Mem: %dKB\t CPU: %0.2f\n", Tms, mem, usage);
 			Tms = Tms + 50;
 		}
 
