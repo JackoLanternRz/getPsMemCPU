@@ -1,4 +1,0 @@
-
-
-# getPsMemCPU
-./<filename> <ps #>
